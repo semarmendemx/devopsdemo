@@ -54,7 +54,7 @@ jobs:
       packageType: 'sdk'
       version: '2.2.401'
   - script: dotnet build ./SimplCommerce.sln
-    displayName: 'dotnet build'
+    displayName: 'this is dotnet build'
   - task: PowerShell@2
     inputs:
       filePath: .\run-tests.ps1
